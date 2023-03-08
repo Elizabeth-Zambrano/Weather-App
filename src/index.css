@@ -1,0 +1,46 @@
+.load{
+  background: white;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.load.hide {
+  display: none;
+}
+
+.imag{
+ margin: 0 auto;
+ width: 100px;
+ animation: load 1.5s infinite;
+}
+
+/*.loader {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+
+
+.loader--img {
+  width: 100px;
+  fill: darkcyan;
+  position: relative;

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  #root {
+   width: 100vw;
+   height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/2199274.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  }
+  .card-clima{
+   
+    width: 60vmin;
+    height: 60vmin;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #1f4367;
+  }
+
+  h3, h4, h5{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 4vmin;
+    
+  }
+  .sub-title,.scattered{
+    text-align: center;
+    font-size: 3vmin;
+  }
+  .item{
+    font-size: 1.5vmin;
+  }
+  
+  .image{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  
+  .contatiner-information{
+    display: flex;
+    height: 60%;
+    
+  }
+  .wind-speed{
+    display: flex;
+    gap: 5px;
+  }
+
+  p{
+    font-size: 2vmin;
+    display: flex;
+    align-items: center;
+  }
+  
+  .temperature{
+    font-size: 3vmin;
+  }
+  
+  .button{
+    width: 45%;
+    height: 10%;
+    margin: 0 auto;
+    font-size: 2vmin;
+    background: rgb(67, 79, 90);
+    border-radius: 10px;
+    display: flex;
+    gap: 5vmin;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    border: none;
+    transition: all 0.5s linear;
+  }
+
+  .button:hover{
+    background: rgba(45, 97, 209, 0.192);
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    width: 60%;
+    height: 10%;
+    font-size: 3vmin;
+  }
+  
+  .imag-icon{
+    width: 12%;
+  }
+  
+  .icon-button{
+    width: 15%;
+  }
